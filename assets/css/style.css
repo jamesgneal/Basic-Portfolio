@@ -35,6 +35,9 @@ li {
     border: #ddd solid 1px;
 }
 
+a:hover {
+    text-decoration: underline;
+}
 
 
 /* header */
@@ -81,18 +84,26 @@ nav ul li a {
 #profile-picture {
     display: inline-block;
     float: left;
-}
-
-p {
-    display: inline;
+    padding-right: 27px;
 }
 
 section {
     max-width: 588px;
     float: left;
     padding: 40px 30px;
+    color: #777;
+    margin-bottom: 40px;
     /* background-color: #fff;
     border: #ddd solid 1px; */
+}
+
+p {
+    display: inline;
+    line-height: 2.25;
+}
+
+section p::first-line {
+    line-height: normal;
 }
 
 section h1 {
@@ -121,4 +132,24 @@ aside hr {
     margin-bottom: 25px;
 }
 
+/* aside ul {
+    text-align: center;
+
+}
+
+aside li {
+    margin: 2px;
+} */
+
 /* footer */
+
+footer {
+    clear: both; 
+    height: 28px;
+    border-top: #4aaaa5 8px solid;
+    background-color: #666;
+    text-align: center;
+    font-size: .8rem;
+    color: #bbb;
+    padding-top: 40px;
+}
