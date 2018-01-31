@@ -62,7 +62,7 @@ header {
 
 nav {
     float: right;
-    display: inline-block;
+    /* display: inline-block; */
     padding-top: 30px;
 }
 
@@ -82,9 +82,10 @@ nav ul li a {
 /* section */
 
 #profile-picture {
-    display: inline-block;
+    /* display: inline-block; */
     float: left;
     padding-right: 27px;
+    padding-top: 10px;
 }
 
 section {
@@ -112,7 +113,10 @@ section h1 {
 }
 
 section hr {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    border-style: solid; 
+    border-color: #ddd; 
+    border-width: 3px 0 0 0; 
 }
 
 /* aside */
@@ -128,8 +132,11 @@ aside h2 {
     padding-bottom: 15px;
 }
 
-aside hr {
+aside hr {  
     margin-bottom: 25px;
+    border-style: solid; 
+    border-color: #ddd; 
+    border-width: 2px 0 0 0;
 }
 
 /* aside ul {
